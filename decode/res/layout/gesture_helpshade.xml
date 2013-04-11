@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/gesturehelpshade" android:background="@drawable/generic_header_bg" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/titlebarview" android:background="@drawable/activity_titlebar_bg" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <Button android:textSize="12.0sp" android:textStyle="bold" android:textColor="#ffcccccc" android:gravity="center" android:id="@id/showTips" android:background="@drawable/btn_generic_background" android:visibility="visible" android:clickable="true" android:layout_width="100.0dip" android:layout_height="40.0dip" android:layout_marginLeft="1.0dip" android:layout_marginTop="6.0dip" android:layout_marginRight="5.0dip" android:text="@string/gestureTutShowTips" android:layout_alignParentLeft="true" />
+        <TextView android:textSize="14.0sp" android:textStyle="bold" android:textColor="#ffffffff" android:gravity="center_vertical" android:id="@id/activityName" android:paddingLeft="120.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:text="@string/gestureTutActivityName" android:shadowColor="#bb000000" android:shadowRadius="2.75" />
+        <Button android:textSize="12.0sp" android:textStyle="bold" android:textColor="#ffcccccc" android:gravity="center" android:id="@id/gestClose" android:background="@drawable/btn_generic_background" android:visibility="visible" android:clickable="true" android:layout_width="70.0dip" android:layout_height="40.0dip" android:layout_marginLeft="1.0dip" android:layout_marginTop="6.0dip" android:layout_marginRight="5.0dip" android:text="@string/gestureTutClose" android:layout_alignParentRight="true" />
+    </RelativeLayout>
+</LinearLayout>

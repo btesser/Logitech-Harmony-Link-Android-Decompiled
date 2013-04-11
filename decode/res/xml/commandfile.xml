@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<commands>
+    <Number0>0,zero,no 0,no zero,number zero,number 0</Number0>
+    <Number1>1,one,no 1,no one,number one,number 1</Number1>
+    <Number2>2,two,no2,no two,number two,number 2</Number2>
+    <Number3>3,three,no 3,no three,number three,number 3
+</Number3>
+    <Number4>4,four,no 4,no four,number four,number 4</Number4>
+    <Number5>5,five,no 5,no five,number five,number 5</Number5>
+    <Number6>6,six,no 6,no six,number six,number 6</Number6>
+    <Number7>7,seven,no 7,no seven,number seven,number 7</Number7>
+    <Number8>8,eight,no 8,no eight,number eight,number 8</Number8>
+    <Number9>9,nine,no 9,no nine,number nine,number 9</Number9>
+    <Mute>mute,silent,quiet</Mute>
+    <VolumeUp>volumeup,soundup,audioup,volume up,sound up,audio up</VolumeUp>
+    <VolumeDown>volumedown,sounddown,audiodown,volumelow,audiolow,volume down,sound down,audio down
+</VolumeDown>
+    <PrevChannel>previouschannel,previous channel</PrevChannel>
+    <ChannelDown>channeldown</ChannelDown>
+    <ChannelUp>channelup</ChannelUp>
+    <DirectionDown>directiondown,down</DirectionDown>
+    <DirectionLeft>directionleft,left</DirectionLeft>
+    <DirectionRight>directionright,right
+</DirectionRight>
+    <DirectionUp>directionup,up</DirectionUp>
+    <Select>select</Select>
+    <Green>green</Green>
+    <Red>red</Red>
+    <Blue>blue</Blue>
+    <Yellow>yellow</Yellow>
+    <Guide>guide</Guide>
+    <Info>info</Info>
+    <Exit>exit,quit</Exit>
+    <Aspect>aspect</Aspect>
+    <AVC>avc</AVC>
+    <BackLight>backlight,light</BackLight>
+    <Favorite>favorite</Favorite>
+    <Freeze>freeze</Freeze>
+    <InputNext>inputnext,input</InputNext>
+    <List>list</List>
+    <Menu>menu</Menu>
+    <Picture>picture</Picture>
+    <PowerToggle>powertoggle,power,powerup,powerdown</PowerToggle>
+    <Senseye>senseye</Senseye>
+    <Sleep>sleep</Sleep>
+    <Sound>sound</Sound>
+    <Subtitle>subtitle</Subtitle>
+    <Teletext>teletext</Teletext>
+    <TeletextHold>teletexthold</TeletextHold>
+    <TeletextIndex>teletextindex</TeletextIndex>
+    <TeletextList>teletextlist</TeletextList>
+    <TeletextReveal>teletextreveal</TeletextReveal>
+    <TeletextSize>teletextsize</TeletextSize>
+    <TeletextSubcode>teletextsubcode</TeletextSubcode>
+    <TeletextUpdate>teletextupdate</TeletextUpdate>
+    <TvAudio>tvaudio</TvAudio>
+</commands>

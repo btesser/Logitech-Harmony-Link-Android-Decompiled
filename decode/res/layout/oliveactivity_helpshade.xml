@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:id="@id/helpshade" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/widget37" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="35.0dip" android:layout_marginTop="30.0dip" android:src="@drawable/helparrowleft" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" />
+    <TextView android:textSize="20.0sp" android:textColor="#ffffffff" android:id="@id/olivehelpshade" android:layout_width="250.0dip" android:layout_height="wrap_content" android:layout_marginLeft="40.0dip" android:layout_marginTop="150.0dip" android:text="@string/oliveActivityHelpShade" android:layout_below="@id/widget47" />
+    <Button android:textSize="20.0sp" android:textStyle="bold" android:textColor="@*android:color/white" android:id="@id/activityhelpshadeok" android:background="#ff71a8dc" android:layout_width="90.0dip" android:layout_height="40.0dip" android:layout_marginTop="20.0dip" android:text="@string/helpshadeok" android:layout_below="@id/olivehelpshade" android:layout_centerInParent="true" android:layout_centerVertical="true" />
+</RelativeLayout>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="settingsMenuItems">
+        <item>Adjust trackpad sensitivity</item>
+        <item>Verbinden met een Logitech-apparaat</item>
+        <item>Logitech-klantenondersteuning</item>
+        <item>Apparaten</item>
+    </string-array>
+    <string-array name="settingsMenuItemsKa1x">
+        <item>Adjust trackpad sensitivity</item>
+        <item>Edit activity buttons</item>
+        <item>Verbinden met een Logitech-apparaat</item>
+        <item>Logitech-klantenondersteuning</item>
+    </string-array>
+    <string-array name="settingsMenuItemsOlive">
+        <item>Apparaten</item>
+        <item>Synchroniseren met My Harmony</item>
+        <item>Verbinden met een Logitech-apparaat</item>
+        <item>Logitech-klantenondersteuning</item>
+        <item>Activiteit voor favorieten</item>
+        <item>Autom. vergrendeling</item>
+    </string-array>
+</resources>

@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="slider_commands">
+        <item>GameY</item>
+        <item>GameX</item>
+        <item>GameA</item>
+        <item>GameB</item>
+        <item>Triangle</item>
+        <item>Square</item>
+        <item>Circle</item>
+        <item>Cross</item>
+        <item>GTVLive</item>
+        <item>GTVHome</item>
+        <item>GTVSearch</item>
+        <item>GTVBack</item>
+        <item>GTVMenu</item>
+        <item>GTVFavorite</item>
+        <item>GTVStar/Rec</item>
+        <item>GTVWindowsManager</item>
+        <item>GTV alt+tab</item>
+        <item>GTVTaskSwitcher</item>
+        <item>TopMenu</item>
+        <item>Menu</item>
+        <item>Guide</item>
+        <item>Info</item>
+        <item>Exit</item>
+        <item>DVR</item>
+        <item>Return</item>
+        <item>Back</item>
+        <item>List</item>
+        <item>MediaCenter</item>
+        <item>Live</item>
+        <item>Record</item>
+        <item>Timer</item>
+        <item>A</item>
+        <item>B</item>
+        <item>C</item>
+        <item>D</item>
+        <item>Red</item>
+        <item>Green</item>
+        <item>Yellow</item>
+        <item>Blue</item>
+        <item>Teletext</item>
+        <item>TiVo</item>
+        <item>ThumbsUp</item>
+        <item>ThumbsDown</item>
+        <item>MyTV</item>
+        <item>MyVideos</item>
+        <item>MyMusic</item>
+        <item>MyPictures</item>
+        <item>MyRadio</item>
+        <item>RecordedTV</item>
+        <item>Aspect</item>
+        <item>Size</item>
+        <item>NowPlaying</item>
+        <item>Search</item>
+    </string-array>
+    <string-array name="transport_Common_commands">
+        <item>VolumeUp</item>
+        <item>VolumeDown</item>
+        <item>Mute</item>
+        <item>Play</item>
+        <item>Rewind</item>
+        <item>SkipForward</item>
+        <item>Pause</item>
+        <item>SkipBackward</item>
+        <item>FastForward</item>
+    </string-array>
+    <string-array name="watch_tv_transport_commands">
+        <item>ChannelUp</item>
+        <item>ChannelDown</item>
+        <item>PrevChannel</item>
+    </string-array>
+    <string-array name="watch_gtv_transport_commands">
+        <item>ChannelUp</item>
+        <item>ChannelDown</item>
+        <item>PrevChannel</item>
+        <item>Record</item>
+        <item>Stop</item>
+        <item>FrameAdvance</item>
+        <item>Aspect</item>
+    </string-array>
+    <string-array name="watch_movie_transport_commands">
+        <item>Stop</item>
+        <item>Record</item>
+        <item>FrameAdvance</item>
+    </string-array>
+    <string-array name="Listentomusic_transport_commands">
+        <item>Repeat</item>
+        <item>Shuffle</item>
+        <item>Eject</item>
+    </string-array>
+    <string-array name="playgame_transport_commands">
+        <item>Stop</item>
+        <item>Record</item>
+        <item>Eject</item>
+    </string-array>
+    <string-array name="dpad_commands">
+        <item>DirectionDown</item>
+        <item>DirectionLeft</item>
+        <item>DirectionRight</item>
+        <item>DirectionUp</item>
+        <item>Select</item>
+        <item>PageDown</item>
+        <item>PageUp</item>
+    </string-array>
+    <string-array name="numeric_commands">
+        <item>NumberEnter</item>
+        <item>Number0</item>
+        <item>Number1</item>
+        <item>Number2</item>
+        <item>Number3</item>
+        <item>Number4</item>
+        <item>Number5</item>
+        <item>Number6</item>
+        <item>Number7</item>
+        <item>Number8</item>
+        <item>Number9</item>
+    </string-array>
+    <string-array name="numeric_digits_commands">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+    </string-array>
+    <string-array name="watch_movie_commands">
+        <item>Aspect</item>
+        <item>Eject</item>
+        <item>Subtitle</item>
+        <item>Audio</item>
+        <item>FrameAdvance</item>
+        <item>Zoom</item>
+    </string-array>
+    <string-array name="watch_tv_commands">
+        <item>Stop</item>
+        <item>Record</item>
+        <item>FrameAdvance</item>
+        <item>Aspect</item>
+        <item>Eject</item>
+        <item>Audio</item>
+        <item>Program</item>
+        <item>Bookmark</item>
+        <item>Pay-Per-View</item>
+        <item>Display</item>
+    </string-array>
+    <string-array name="listen_to_music_commands">
+        <item>Favorite</item>
+        <item>Search</item>
+        <item>Aspect</item>
+        <item>Repeat</item>
+        <item>Shuffle</item>
+        <item>NextDisc</item>
+        <item>PreviousDisc</item>
+        <item>Disc</item>
+        <item>Disc1</item>
+        <item>Disc2</item>
+        <item>Disc3</item>
+        <item>Disc4</item>
+        <item>Disc5</item>
+        <item>Disc6</item>
+        <item>AM</item>
+        <item>FM</item>
+        <item>NextBand</item>
+        <item>PrevBand</item>
+        <item>BrowseMusic</item>
+        <item>BrowseArtist</item>
+        <item>BrowsePlaylist</item>
+        <item>SearchAlbum</item>
+        <item>SearchSong</item>
+        <item>SearchArtist</item>
+        <item>BrightnessUp</item>
+        <item>Browse</item>
+        <item>NowPlaying</item>
+        <item>Sleep</item>
+        <item>Add</item>
+        <item>Aspect</item>
+    </string-array>
+    <string-array name="play_game_commands">
+        <item>Audio</item>
+        <item>Eject</item>
+    </string-array>
+    <string-array name="custom_activity_commands">
+        <item>Stop</item>
+        <item>Record</item>
+        <item>FrameAdvance</item>
+        <item>Aspect</item>
+        <item>Eject</item>
+        <item>Audio</item>
+        <item>Program</item>
+        <item>Bookmark</item>
+        <item>Pay-Per-View</item>
+        <item>Display</item>
+    </string-array>
+    <string-array name="environments">
+        <item>https://svcs-pp.myharmony.com</item>
+        <item>https://int-discovery.myharmony.com</item>
+        <item>https://svcs-stg04.myharmony.com</item>
+        <item>http://svcs.superbad.domca05.am.logitech.com</item>
+        <item>https://svcs-staging-a2.myharmony.com</item>
+        <item>http://svcs.staginga1.domca05.am.logitech.com</item>
+        <item>http://svcs.staginga2.domca05.am.logitech.com</item>
+        <item>http://svcs.okwaho.domca05.am.logitech.com</item>
+        <item>https://svcs-stg01.myharmony.com</item>
+        <item>https://svcs-beta1.myharmony.com</item>
+        <item>https://svcs-beta2.myharmony.com</item>
+        <item>https://svcs-dev07.myharmony.com</item>
+        <item>https://discovery.logitech.com</item>
+        <item>http://svcs.myharmony.com</item>
+        <item>https://svcs.myharmony.com</item>
+        <item>https://internal-svcs.myharmony.com</item>
+    </string-array>
+    <string-array name="settingsMenuItems">
+        <item>Adjust trackpad sensitivity</item>
+        <item>Connect to a Logitech device</item>
+        <item>Logitech customer support</item>
+        <item>Devices</item>
+    </string-array>
+    <string-array name="settingsMenuItemsKa1x">
+        <item>Adjust trackpad sensitivity</item>
+        <item>Edit activity buttons</item>
+        <item>Connect to a Logitech device</item>
+        <item>Logitech customer support</item>
+    </string-array>
+    <string-array name="settingsMenuItemsOlive">
+        <item>Devices</item>
+        <item>Sync with My Harmony</item>
+        <item>Connect to a Logitech Device</item>
+        <item>Logitech customer support</item>
+        <item>Activity for favorites</item>
+        <item>@string/autoLock</item>
+    </string-array>
+</resources>

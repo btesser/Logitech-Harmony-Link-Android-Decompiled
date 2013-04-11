@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="settingsMenuItems">
+        <item>Adjust trackpad sensitivity</item>
+        <item>Unpair from all Logitech devices</item>
+        <item>Logitech-Kundendienst</item>
+        <item>Geräte</item>
+    </string-array>
+    <string-array name="settingsMenuItemsKa1x">
+        <item>Adjust trackpad sensitivity</item>
+        <item>Edit activity buttons</item>
+        <item>Unpair from all Logitech devices</item>
+        <item>Logitech customer support</item>
+    </string-array>
+    <string-array name="settingsMenuItemsOlive">
+        <item>Geräte</item>
+        <item>Mit MyHarmony synchronisieren</item>
+        <item>Unpair from all Logitech devices</item>
+        <item>Logitech-Kundendienst</item>
+        <item>Aktion für Favoriten</item>
+        <item>Automatische Sperre</item>
+    </string-array>
+</resources>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="settingsMenuItems">
+        <item>Adjust trackpad sensitivity</item>
+        <item>Connetti a un dispositivo Logitech</item>
+        <item>Supporto clienti Logitech</item>
+        <item>Dispositivi</item>
+    </string-array>
+    <string-array name="settingsMenuItemsKa1x">
+        <item>Adjust trackpad sensitivity</item>
+        <item>Edit activity buttons</item>
+        <item>Connetti a un dispositivo Logitech</item>
+        <item>Supporto clienti Logitech</item>
+    </string-array>
+    <string-array name="settingsMenuItemsOlive">
+        <item>Dispositivi</item>
+        <item>Sincronizza con My Harmony</item>
+        <item>Connetti a un dispositivo Logitech</item>
+        <item>Supporto clienti Logitech</item>
+        <item>Attività per preferiti</item>
+        <item>Blocco automatico</item>
+    </string-array>
+</resources>

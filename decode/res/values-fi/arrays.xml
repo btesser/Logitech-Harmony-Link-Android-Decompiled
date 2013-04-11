@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="settingsMenuItems">
+        <item>Adjust trackpad sensitivity</item>
+        <item>Muodosta yhteys Logitech-laitteeseen</item>
+        <item>Logitech-asiakaspalvelu</item>
+        <item>Laitteet</item>
+    </string-array>
+    <string-array name="settingsMenuItemsKa1x">
+        <item>Adjust trackpad sensitivity</item>
+        <item>Edit activity buttons</item>
+        <item>Muodosta yhteys Logitech-laitteeseen</item>
+        <item>Logitech-asiakaspalvelu</item>
+    </string-array>
+    <string-array name="settingsMenuItemsOlive">
+        <item>Laitteet</item>
+        <item>Synkronoi My Harmony -tilin kanssa</item>
+        <item>Muodosta yhteys Logitech-laitteeseen</item>
+        <item>Logitech-asiakaspalvelu</item>
+        <item>Toiminto suosikeille</item>
+        <item>Automaattinen lukitus</item>
+    </string-array>
+</resources>

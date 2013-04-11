@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Harmony Link</string>
+    <string name="globalActivities">Activities</string>
+    <string name="globalOneTouch">One Touch</string>
+    <string name="globalOpenNetworkSettings">Open Network Settings</string>
+    <string name="globalPowerOff">Power Off</string>
+    <string name="globalConnect">Connect</string>
+    <string name="globalRescan">Rescan</string>
+    <string name="globalInput">Input</string>
+    <string name="globalLogitechCustomerSupport">Logitech Customer Support</string>
+    <string name="globalPairing">Pairing...</string>
+    <string name="globalSettings">Settings</string>
+    <string name="globalOff">Off</string>
+    <string name="globalControls">Controls</string>
+    <string name="globalRControl">Controls</string>
+    <string name="globalOk">OK</string>
+    <string name="globalDone">Done</string>
+    <string name="globalNoKaFound">Check that your Logitech Harmony Link is set up properly and that both devices are on the same network.</string>
+    <string name="globalLaunchMessage">This bookmark has been removed on Logitech Revue and is no longer available</string>
+    <string name="globalAvr">AV Receiver</string>
+    <string name="globalCouldNotConnect">Could not connect to Logitech Device</string>
+    <string name="globalPhoneUnpaired">Phone unpaired</string>
+    <string name="globalTv">TV</string>
+    <string name="globalStb">Set-top Box</string>
+    <string name="globalHelp">Help</string>
+    <string name="globalCancel">Cancel</string>
+    <string name="globalAlert">Alert</string>
+    <string name="globalStartingActivityAlert">Another user has started a %1$s activity using a Harmony remote. System is currently starting the activity.</string>
+    <string name="globalActivityControlReplaceAlert">Another user has started a %1$s activity using a Harmony remote. The screen will now change to display %1$s activity controls.</string>
+    <string name="globalActivityPowerOffAlert">Another user has turned the system off using a Harmony remote.</string>
+    <string name="globalActivityChangedActivityAlert">Another user has started a %1$s activity using a Harmony remote. System is currently starting the activity.</string>
+    <string name="globalCouldNotHarmonyLink">Could not connect to Harmony Link.</string>
+    <string name="harmonyManualTurnOn">If any devices did not start correctly tap here to manually turn them on</string>
+    <string name="harmonyTurnOff">Turns off all the devices that were turned on</string>
+    <string name="harmonyGestureHelp">Shake to explore Gestures</string>
+    <string name="harmonyHelpShadeTitle">Device Power and Inputs</string>
+    <string name="startHarmonyStarting">Starting</string>
+    <string name="startHarmonyLoading">Loading...</string>
+    <string name="startHarmonyRevueBusy">Revue is busy</string>
+    <string name="startHarmonyLinkBusy">Harmony Link is busy</string>
+    <string name="addMoreTitle">Add more</string>
+    <string name="addMoreGtvBookmarks">GTV Bookmarks</string>
+    <string name="addMoreGtvApps">GTV Applications</string>
+    <string name="addMoreGtvShortcuts">Shortcuts</string>
+    <string name="addMoreDefaultText">"For complete control of your
+entertainment system, go to
+"<b>myharmony.com/apps</b>" on your
+computer.
+
+You will be able to add Activities like
+Play XBOX and Watch DVD. 
+
+When you are asked to sign in, use
+your Google account xyz@gmail.com"</string>
+    <string name="addMoreBookmarks">Add more Bookmarks</string>
+    <string name="addMoreShortcuts">Add more Shortcuts</string>
+    <string name="addMoreActivities">Add more Activities</string>
+    <string name="addMoreApplications">Add more Applications</string>
+    <string name="serverListLine1">Logitech devices on</string>
+    <string name="serverListLine2" />
+    <string name="serverListFromUnpair">FromUnPair</string>
+    <string name="serverListUpdating">Updating</string>
+    <string name="connectionHelpDontSeeRevue">"Don't see your Logitech Harmony Link?"</string>
+    <string name="connectionHelpLine1">Check that this phone is on the same network as your Logitech Harmony Link</string>
+    <string name="connectionHelpLine2">network as your Logitech Revue</string>
+    <string name="connectionHelpTryIpAddress1">"Try entering your Revue's IP address manually:"</string>
+    <string name="connectionHelpTryIpAddress2">"(This can be found on your Revue in 
+Settings>Network>Network Information)."</string>
+    <string name="connectionHelpTryIpAddress3">Settings>Network>Network Information).</string>
+    <string name="connectionHelpEnterIpAddress">enter IP address</string>
+    <string name="connectionHelpTryScanNetwork">Try rescanning your network:</string>
+    <string name="connectionHelpCsHelp1">"If you continue to experience problems,
+please consult Logitech's"</string>
+    <string name="connectionHelpCsHelp2">"please consult Logitech's"</string>
+    <string name="devicesTitle">Devices</string>
+    <string name="deviceactivitysource">FromDevices_KA1x</string>
+    <string name="addmoredeviceinfo">To add more devices and activities, go to www.MyHarmony.com</string>
+    <string name="dPadSetup">Setup</string>
+    <string name="dPadText">Use the buttons below to navigate on your TV.</string>
+    <string name="editUserDefinedPageTitle">Edit \"Watch Google TV\" controls</string>
+    <string name="editUserDefinedPageInstruction">"Long-press an empty slot to add a new button.
+Drag-and-drop an existing button to move it."</string>
+    <string name="editUserDefinedPageRestore">Restore</string>
+    <string name="editUserDefinedPageRemove">Remove</string>
+    <string name="enterIpAddress">IP Address</string>
+    <string name="enterIpString">IP Address for target Logitech Revue</string>
+    <string name="enterIpSave">Save</string>
+    <string name="enterPinMakeSure">Make sure your TV is on and connected to your Logitech Revue.</string>
+    <string name="enterPinPasscode">Enter the 4-digit passcode as it appears on your TV screen.</string>
+    <string name="enterPinN0">0</string>
+    <string name="enterPinN1">1</string>
+    <string name="enterPinN2">2</string>
+    <string name="enterPinN3">3</string>
+    <string name="enterPinN4">4</string>
+    <string name="enterPinN5">5</string>
+    <string name="enterPinN6">6</string>
+    <string name="enterPinN7">7</string>
+    <string name="enterPinN8">8</string>
+    <string name="enterPinN9">9</string>
+    <string name="enterPinIncorrectPasscode">Incorrect Passcode</string>
+    <string name="enterPinIncorrectPasscodeMessage">The passcode you entered did not match.</string>
+    <string name="enterPinTryAgain">Try Again</string>
+    <string name="enterPinSuccess">Success</string>
+    <string name="fixItMenu">Menu</string>
+    <string name="fixItEnter">Enter</string>
+    <string name="fixItPowerOn">Power On</string>
+    <string name="gestureTutActivityName">Activity Name</string>
+    <string name="gestureTutClose">Close</string>
+    <string name="gestureTutShowTips">Show Tips</string>
+    <string name="gestureTutTitle">GESTURE TUTORIAL</string>
+    <string name="gestureTutText1">Tap Show Tips for tips on using gestures</string>
+    <string name="gestureTutText2">You can use gestures like swipe and drag to control volume and playback.</string>
+    <string name="helpAssistance">Need additional assistance? Please review the options below.</string>
+    <string name="helpLaunchCs">If your Logitech Revue is available, you can use your Revue Controller to navigate the app below:</string>
+    <string name="helpLaunchCsBtn">Launch Customer Support</string>
+    <string name="helpWeb">Help is available on the web:</string>
+    <string name="helpPhone">Help is available by phone:</string>
+    <string name="helpCsUrl">www.logitech.com/revue/support</string>
+    <string name="helpCsOliveUrl">http://www.logitech.com/en-ca/support-downloads/downloads/universal-remotes</string>
+    <string name="helpCsPhoneNumber">866-954-5644</string>
+    <string name="oliveHelpAssitance">Customer Support Options</string>
+    <string name="olivehelpCsOld">"For self-help articles, FAQs, and support contact information, tap the link below. 
+"<a href="http://www.logitech.com/en-ca/support-downloads/downloads/universal-remotes">Logitech support site</a></string>
+    <string name="olivehelpCs">"For self-help articles, FAQs, and support contact information, tap the link below. 
+"<a href="http://www.logitech.com/440/8439">Logitech support site</a></string>
+    <string name="olivehelpCsUrl">http://www.logitech.com/440/8439</string>
+    <string name="olivehelpPhone">Call Harmony Link Customer Care</string>
+    <string name="oneTouchGridHelpShade1">Browse through your Google TV bookmarks and other options to quickly access your content</string>
+    <string name="oneTouchGridHelpShade2">Selecting an item on the screen will turn on the required devices and go to the content</string>
+    <string name="oliveOneTouchHelpShade">Add your favorite channel here</string>
+    <string name="helpshadeok">OK</string>
+    <string name="oliveActivityHelpShade">If any devices did not start correctly, tap here to fix the problem</string>
+    <string name="noactivitymsg">"You do not have any One Touch activities set up.
+
+Activities allow you to turn on all the devices involved in a particular activity, turn off the ones you don't need, and change the necessary inputs, all with a single touch.
+
+Go to MyHarmony.com to set up activities like Watch TV, Watch a Movie etc."</string>
+    <string name="manualSyncTitle">Sync with My Harmony</string>
+    <string name="manualSyncText">If you have made changes on My Harmony, tap Sync Now below to update your app.</string>
+    <string name="manualSyncButtonText">Sync Now</string>
+    <string name="manualSyncLastUpdated">Last Sync: %1$s</string>
+    <string name="oliveFirmwareVersion">Firmware Version: %1$s</string>
+    <string name="manualSyncing">Syncing</string>
+    <string name="manualSyncComplete">Sync Complete</string>
+    <string name="manualSyncProblem">Problem syncing</string>
+    <string name="manualSyncOkbuttonText">OK</string>
+    <string name="checkSyncUpdate">Checking for update</string>
+    <string name="syncUpdatetitle">Update</string>
+    <string name="syncUpdateText">Harmony Link needs to be updated to a newer version before you can sync. This can take a few minutes. Do you want to update now?</string>
+    <string name="syncLater">Later</string>
+    <string name="syncUpdate">Update Now</string>
+    <string name="syncDowmloadingFw">Downloading Firmware</string>
+    <string name="syncInstallingFw">Installing Firmware</string>
+    <string name="unabletosync">Unable to Sync.Please try again.</string>
+    <string name="syncInProgress">Sync in Progress.Another user is currently syncing.</string>
+    <string name="syncwifiLostIgnoreMsg">You may experience some connection loss between Harmony Link and Phone. Please wait until installation completes.</string>
+    <string name="manualsyncolive">frommanualsync</string>
+    <string name="loginActivityLogin">Login</string>
+    <string name="loginActivityconnecting">Connecting</string>
+    <string name="loginActivityPassword">Password</string>
+    <string name="loginActivityAuthFailure">Your Harmony account password was incorrect. Please try again.</string>
+    <string name="loginActivityAuthtimeout">Connection timeout. Please try again</string>
+    <string name="loginScreen">fromloginpage</string>
+    <string name="loginPass">MyHarmony Password</string>
+    <string name="mouseSensitivityTitle">Trackpad Sensitivity</string>
+    <string name="mouseSensitivityMsg">Use the sliders below to change the sensitivity of the trackpad. Once your settings are correct, press \"Save Changes\".</string>
+    <string name="mouseSensitivitySaveChanges">Save Changes</string>
+    <string name="noActivityText">Controls are not available because nothing appears to be on</string>
+    <string name="noActivityHelpText">Choose an item from the One Touch Screen and the appropriate controls will be available</string>
+    <string name="noConnectionTitle">Connection timeout</string>
+    <string name="noConnectionDeviceFound">No devices were found.</string>
+    <string name="noConnectionHelpBtn">Connection Help</string>
+    <string name="noWifiConnection">No WiFi connection</string>
+    <string name="noWifiConnectionMessage">A WiFi connection is required to use this application</string>
+    <string name="oneTouchEdit">Edit</string>
+    <string name="oneTouchSource">FromOneTouch</string>
+    <string name="oneTouchNoConfiguredActivity">No activities are configured</string>
+    <string name="powerOffText">Turning system off</string>
+    <string name="powerOffHelpIntro">Did everything turn off properly? If not, use the buttons below to power off your devices.</string>
+    <string name="powerOffContinue">Continue</string>
+    <string name="powerOffResetDevice">Reset Devices</string>
+    <string name="powerOffInitializeIntroText">If any of the following devices are on please turn them off to test your Watch TV activity.</string>
+    <string name="preferenceRefresh">refresh</string>
+    <string name="preferenceUpdate">update</string>
+    <string name="autoLock">Auto-Lock</string>
+    <string name="keyboardFeatureNotSupported">Feature not supported</string>
+    <string name="userDefinedPageSelectDevice">Select Device</string>
+    <string name="userDefinedPageSelectCommand">Select Command</string>
+    <string name="userDefinedPageResetToDefault">Reset to Default</string>
+    <string name="openApiUpdateNeeded">Please update your software on Logitech Revue if you would like to be able to use Harmony Remote.</string>
+    <string name="openApiUpdateRequired">Please update the Harmony Remote software with the latest version available on the Android Marketplace.</string>
+    <string name="openApiUpdateRecommended">It is recommended that you update the Harmony Remote software with the latest version available on the Android Marketplace.</string>
+    <string name="oneTouchGridWarningMessage">"You have some partially setup activities in your Harmony account.
+
+Please go to myharmony.com to complete the setup of these activities."</string>
+    <string name="onetouchnoactivitieswarning">"There are no activities configured.
+Please go to myharmony.com to configure activities."</string>
+    <string name="voiceCommandNotAvailable">"Command '%1$s' is not available. Please try again"</string>
+    <string name="watchGTVInvalidString">Invalid string. Please try again.</string>
+    <string name="watchGTVStringSent">"String '%1$s' has been sent."</string>
+    <string name="error_revue">Not Connected to Revue</string>
+    <string name="error_olive">Not Connected to Harmony Link</string>
+    <string name="in_progress">In Progress</string>
+    <string name="connecting_to">Connecting to your Logitech Revue</string>
+    <string name="error_primarycontols">Error: Unable to create primary controls</string>
+    <string name="onetouchAddSymbol">(+)</string>
+    <string name="title_add">Add</string>
+    <string name="addchannel_cancel">cancel</string>
+    <string name="channel_name_title">Name</string>
+    <string name="name_hint">Channel Name</string>
+    <string name="channel_number_title">Number</string>
+    <string name="number_hint">Channel Number</string>
+    <string name="channel_icon_title">Icon</string>
+    <string name="header_defaulttv">Select the activity you want to start when you tap on the favorite channel</string>
+    <string name="title_default_watchtv">Activity For Favorites</string>
+    <string name="channel_activity_title">Add Channel</string>
+    <string name="channel_no_results">No Matching Icons Found. Please refine the search text and try again, or use default icon</string>
+    <string name="app_not_supported_for_device">The Logitech Harmony app is not supported on your device</string>
+</resources>

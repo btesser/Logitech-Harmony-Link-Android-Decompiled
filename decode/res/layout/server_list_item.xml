@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:layout_gravity="center_vertical" android:orientation="horizontal" android:id="@id/ServerListItemRow" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:layout_gravity="center_vertical" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minHeight="?android:listPreferredItemHeight" android:layout_weight="1.0">
+        <TextView android:textAppearance="?android:textAppearanceMedium" android:textSize="15.0dip" android:gravity="center_vertical" android:id="@id/serverName" android:paddingLeft="6.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentTop="true" />
+        <TextView android:textAppearance="?android:textAppearanceMedium" android:textSize="15.0dip" android:id="@id/deviceinfo" android:paddingLeft="6.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center_vertical" android:layout_gravity="center_vertical" android:orientation="horizontal" android:id="@id/connectLayout" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <Button android:textSize="15.0sp" android:textColor="@drawable/dark_text_bright_selected" android:id="@*android:id/button1" android:background="@drawable/btn_gradient_background" android:padding="9.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/globalConnect" android:layout_weight="0.0" />
+        <ProgressBar android:layout_gravity="center_vertical" android:id="@id/ProgressBar02" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" style="?android:attr/progressBarStyleSmall" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center_vertical" android:layout_gravity="center_vertical" android:orientation="vertical" android:id="@id/updatingLayout" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minHeight="?android:listPreferredItemHeight" android:layout_weight="1.0">
+        <ProgressBar android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" style="?android:attr/progressBarStyleSmall" />
+        <TextView android:textSize="15.0sp" android:textColor="@*android:color/white" android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/serverListUpdating" />
+    </LinearLayout>
+    <View android:id="@id/View01" android:layout_width="7.0dip" android:layout_height="wrap_content" />
+</LinearLayout>

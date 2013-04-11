@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@drawable/generic_screen_bg" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="18.0sp" android:textStyle="bold" android:textColor="#ffffffff" android:ellipsize="end" android:gravity="center_horizontal" android:id="@id/TitleBar" android:background="@drawable/generic_header_bg" android:paddingLeft="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/manualSyncTitle" android:shadowColor="#bb000000" android:shadowRadius="2.75" />
+    <TextView android:textSize="15.0sp" android:gravity="center" android:paddingLeft="20.0dip" android:paddingTop="50.0dip" android:paddingRight="20.0dip" android:paddingBottom="50.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/manualSyncText" />
+    <TextView android:textSize="15.0sp" android:layout_gravity="center_horizontal" android:id="@id/lastSyncDate" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <TextView android:textSize="15.0sp" android:layout_gravity="center_horizontal" android:id="@id/oliveFirmwareVersion" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <Button android:textSize="15.0sp" android:textStyle="bold" android:textColor="@drawable/dark_text_bright_selected" android:layout_gravity="center_horizontal" android:id="@id/syncNow" android:background="@drawable/btn_gradient_background" android:padding="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="20.0dip" android:text="@string/manualSyncButtonText" />
+</LinearLayout>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@drawable/generic_screen_bg" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="14.0sp" android:textStyle="bold" android:textColor="#ffffffff" android:ellipsize="end" android:gravity="center_vertical" android:id="@id/TitleBar" android:background="@drawable/generic_header_bg" android:paddingLeft="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/noConnectionTitle" android:shadowColor="#bb000000" android:shadowRadius="2.75" />
+    <TextView android:textSize="18.0sp" android:textStyle="bold" android:id="@id/nodevicefoundtxt" android:padding="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/noConnectionDeviceFound" />
+    <View android:background="@drawable/line_divider" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+    <TextView android:textSize="18.0sp" android:id="@id/nodeviceErrMsgtxt" android:paddingLeft="10.0dip" android:paddingTop="10.0dip" android:paddingRight="10.0dip" android:paddingBottom="30.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/globalNoKaFound" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/bottom_container" android:paddingLeft="10.0dip" android:paddingRight="10.0dip" android:paddingBottom="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <Button android:textSize="15.0sp" android:textColor="@drawable/dark_text_bright_selected" android:id="@id/rescan" android:background="@drawable/btn_gradient_background" android:padding="9.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/globalRescan" />
+        <View android:id="@id/View01" android:layout_width="6.0dip" android:layout_height="wrap_content" />
+        <Button android:textSize="15.0sp" android:textColor="@drawable/dark_text_bright_selected" android:id="@id/connectionhelpbtn" android:background="@drawable/btn_gradient_background" android:padding="9.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/noConnectionHelpBtn" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/WatchGTVRoot" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/res/com.logitech.harmonylink">
+    <RelativeLayout android:background="@drawable/activity_titlebar_bg" android:layout_width="fill_parent" android:layout_height="45.0dip">
+        <Button android:textSize="12.0sp" android:textStyle="bold" android:textColor="@drawable/dark_text_bright_selected" android:id="@id/help" android:background="@drawable/btn_gradient_background" android:visibility="visible" android:layout_width="46.0dip" android:layout_height="29.0dip" android:layout_marginLeft="5.0dip" android:layout_marginTop="6.0dip" android:text="@string/globalHelp" android:layout_alignParentLeft="true" />
+        <TextView android:textSize="16.0sp" android:textStyle="bold" android:textColor="@*android:color/white" android:id="@id/titlebar" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerHorizontal="true" android:layout_centerVertical="true" />
+        <Button android:textSize="12.0sp" android:textStyle="bold" android:textColor="@drawable/dark_text_bright_selected" android:id="@id/poweroff" android:background="@drawable/btn_gradient_background" android:visibility="visible" android:layout_width="46.0dip" android:layout_height="29.0dip" android:layout_marginTop="6.0dip" android:layout_marginRight="5.0dip" android:text="@string/globalOff" android:layout_alignParentRight="true" />
+    </RelativeLayout>
+    <FrameLayout android:orientation="vertical" android:id="@id/WatchGTVSlidingDrawerParent" android:background="@drawable/generic_screen_bg" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ViewStub android:id="@id/WatchGTV" android:layout="@layout/watch_gtv_view" android:inflatedId="@id/WatchGTVView" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </FrameLayout>
+</LinearLayout>

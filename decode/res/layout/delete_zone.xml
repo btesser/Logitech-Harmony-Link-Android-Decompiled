@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.logitech.harmonylink.view.widget.dragdrop.DeleteZone android:layout_gravity="center" android:id="@id/delete_zone" android:background="@drawable/delete_zone_selector" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="32.0dip" android:src="@drawable/background_delete" android:scaleType="center" android:layout_alignParentBottom="true"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

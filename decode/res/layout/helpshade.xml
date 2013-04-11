@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/helpshade" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:orientation="horizontal" android:paddingTop="20.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="0.2" />
+    <RelativeLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="0.2">
+        <ImageView android:id="@id/widget38" android:paddingLeft="20.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/pairingtutorialarrow" android:layout_weight="0.2" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" />
+        <TextView android:textSize="18.0sp" android:textColor="@*android:color/white" android:id="@id/widget37" android:paddingLeft="10.0dip" android:paddingTop="30.0dip" android:layout_width="120.0px" android:layout_height="wrap_content" android:text="@string/oneTouchGridHelpShade2" android:layout_weight="0.3" android:layout_toRightOf="@id/widget38" android:layout_alignParentTop="true" android:layout_alignParentRight="true" />
+        <Button android:textSize="18.0sp" android:textStyle="bold" android:textColor="@*android:color/white" android:id="@id/begin" android:background="#ff00a2a2" android:layout_width="90.0dip" android:layout_height="50.0dip" android:layout_marginBottom="20.0dip" android:text="BEGIN" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" />
+    </RelativeLayout>
+</LinearLayout>

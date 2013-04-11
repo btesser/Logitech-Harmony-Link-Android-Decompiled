@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Button android:textSize="15.0dip" android:textColor="@drawable/dark_text_bright_selected" android:id="@id/powerOn" android:background="@drawable/btn_gradient_background" android:layout_width="124.0dip" android:layout_height="30.0dip" android:text="@string/fixItPowerOn" />
+    <Button android:textSize="15.0dip" android:textColor="@drawable/dark_text_bright_selected" android:id="@id/powerOff" android:background="@drawable/btn_gradient_background" android:visibility="gone" android:layout_width="124.0dip" android:layout_height="30.0dip" android:layout_marginTop="6.0dip" android:text="@string/globalPowerOff" android:layout_below="@id/powerOn" />
+</RelativeLayout>

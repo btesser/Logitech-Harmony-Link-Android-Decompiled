@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@drawable/dpadshadow_bg" android:layout_width="215.0dip" android:layout_height="215.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/dpad" android:layout_width="210.0dip" android:layout_height="210.0dip">
+        <RelativeLayout android:paddingLeft="1.0dip" android:paddingTop="7.0dip" android:paddingRight="4.0dip" android:paddingBottom="7.0dip" android:layout_width="78.0dip" android:layout_height="210.0dip" android:layout_alignParentLeft="true" android:layout_alignParentBottom="true">
+            <com.logitech.harmonylink.view.widget.ShapedImageButton android:id="@id/DPadButtonLeft" android:background="@drawable/dpad_left" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </RelativeLayout>
+        <RelativeLayout android:paddingLeft="7.0dip" android:paddingTop="1.0dip" android:paddingRight="7.0dip" android:paddingBottom="4.0dip" android:layout_width="210.0dip" android:layout_height="79.0dip" android:layout_alignParentLeft="true">
+            <com.logitech.harmonylink.view.widget.ShapedImageButton android:id="@id/DPadButtonUp" android:background="@drawable/dpad_up" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </RelativeLayout>
+        <RelativeLayout android:paddingLeft="4.0dip" android:paddingTop="7.0dip" android:paddingRight="2.0dip" android:paddingBottom="7.0dip" android:layout_width="78.0dip" android:layout_height="210.0dip" android:layout_alignParentTop="true" android:layout_alignParentRight="true">
+            <com.logitech.harmonylink.view.widget.ShapedImageButton android:id="@id/DPadButtonRight" android:background="@drawable/dpad_right" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </RelativeLayout>
+        <RelativeLayout android:paddingLeft="7.0dip" android:paddingTop="4.0dip" android:paddingRight="7.0dip" android:paddingBottom="2.0dip" android:layout_width="210.0dip" android:layout_height="78.0dip" android:layout_alignParentLeft="true" android:layout_alignParentBottom="true">
+            <com.logitech.harmonylink.view.widget.ShapedImageButton android:id="@id/DPadButtonDown" android:background="@drawable/dpad_down" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </RelativeLayout>
+        <RelativeLayout android:paddingLeft="10.0dip" android:paddingTop="7.0dip" android:paddingRight="1.0dip" android:paddingBottom="1.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <com.logitech.harmonylink.view.widget.ShapedImageButton android:id="@id/DPadButtonOK" android:background="@drawable/dpad_ok" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </RelativeLayout>
+    </RelativeLayout>
+</RelativeLayout>

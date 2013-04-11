@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/settings" android:background="@drawable/generic_screen_bg" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/res/com.logitech.harmonylink">
+    <TextView android:textSize="20.0sp" android:textStyle="bold" android:textColor="#ffffffff" android:ellipsize="end" android:gravity="center_vertical" android:id="@id/TitleBar" android:background="@drawable/generic_header_bg" android:paddingLeft="10.0dip" android:layout_width="wrap_content" android:layout_height="45.0dip" android:text="@string/globalSettings" android:shadowColor="#bb000000" android:shadowRadius="2.75" />
+    <ListView android:gravity="center" android:id="@id/settingList" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0" />
+</LinearLayout>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ViewAnimator android:layout_gravity="center" android:id="@id/ActionArea" android:layout_width="wrap_content" android:layout_height="fill_parent">
+        <RelativeLayout android:gravity="center" android:id="@id/Dpad" android:paddingLeft="15.0dip" android:paddingTop="28.0dip" android:paddingRight="15.0dip" android:paddingBottom="28.0dip" android:layout_width="wrap_content" android:layout_height="fill_parent">
+            <RelativeLayout android:background="@drawable/dpadshadow_bg" android:layout_width="217.0dip" android:layout_height="218.0dip"
+              xmlns:android="http://schemas.android.com/apk/res/android">
+                <RelativeLayout android:id="@id/dpad" android:layout_width="210.0dip" android:layout_height="210.0dip">
+                    <RelativeLayout android:paddingLeft="1.0dip" android:paddingTop="7.0dip" android:paddingRight="4.0dip" android:paddingBottom="7.0dip" android:layout_width="78.0dip" android:layout_height="210.0dip" android:layout_alignParentLeft="true" android:layout_alignParentBottom="true">
+                        <com.logitech.harmonylink.view.widget.ShapedImageButton android:id="@id/DPadButtonLeft" android:background="@drawable/dpad_left" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                    </RelativeLayout>
+                    <RelativeLayout android:paddingLeft="7.0dip" android:paddingTop="1.0dip" android:paddingRight="7.0dip" android:paddingBottom="4.0dip" android:layout_width="210.0dip" android:layout_height="78.0dip" android:layout_alignParentLeft="true">
+                        <com.logitech.harmonylink.view.widget.ShapedImageButton android:id="@id/DPadButtonUp" android:background="@drawable/dpad_up" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                    </RelativeLayout>
+                    <RelativeLayout android:paddingLeft="4.0dip" android:paddingTop="7.0dip" android:paddingRight="1.0dip" android:paddingBottom="7.0dip" android:layout_width="78.0dip" android:layout_height="210.0dip" android:layout_alignParentTop="true" android:layout_alignParentRight="true">
+                        <com.logitech.harmonylink.view.widget.ShapedImageButton android:id="@id/DPadButtonRight" android:background="@drawable/dpad_right" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                    </RelativeLayout>
+                    <RelativeLayout android:paddingLeft="7.0dip" android:paddingTop="4.0dip" android:paddingRight="7.0dip" android:paddingBottom="1.0dip" android:layout_width="210.0dip" android:layout_height="78.0dip" android:layout_alignParentLeft="true" android:layout_alignParentBottom="true">
+                        <com.logitech.harmonylink.view.widget.ShapedImageButton android:id="@id/DPadButtonDown" android:background="@drawable/dpad_down" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                    </RelativeLayout>
+                    <RelativeLayout android:paddingLeft="10.0dip" android:paddingTop="7.0dip" android:paddingRight="1.0dip" android:paddingBottom="1.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                        <com.logitech.harmonylink.view.widget.ShapedImageButton android:id="@id/DPadButtonOK" android:background="@drawable/dpad_ok" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                    </RelativeLayout>
+                </RelativeLayout>
+            </RelativeLayout>
+        </RelativeLayout>
+        <RelativeLayout android:gravity="center" android:id="@id/GesturePad" android:paddingLeft="15.0dip" android:paddingTop="28.0dip" android:paddingRight="15.0dip" android:paddingBottom="28.0dip" android:layout_width="wrap_content" android:layout_height="fill_parent">
+            <ImageView android:layout_gravity="center" android:id="@id/GesturePadImageView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/gesture_mode_bg" />
+        </RelativeLayout>
+    </ViewAnimator>
+    <RelativeLayout android:gravity="center" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_toRightOf="@id/ActionArea">
+        <ImageButton android:layout_gravity="center" android:id="@id/DPadButtonPlus" android:background="@drawable/btn_grid_background_top_left_edge" android:layout_width="61.0dip" android:layout_height="60.0dip" android:layout_marginBottom="-4.0dip" android:src="@drawable/icon_dpad_page_up" />
+        <ImageButton android:layout_gravity="center" android:id="@id/DPadButtonMinus" android:background="@drawable/btn_grid_background_bottom_left_edge" android:layout_width="61.0dip" android:layout_height="60.0dip" android:src="@drawable/icon_dpad_page_down" android:layout_below="@id/DPadButtonPlus" />
+        <ToggleButton android:layout_gravity="center" android:id="@id/DPadSwitch" android:background="@drawable/gesture_dpad_navigator" android:layout_width="61.0dip" android:layout_height="60.0dip" android:layout_marginTop="40.0dip" android:checked="true" android:textOn="" android:textOff="" android:layout_below="@id/DPadButtonMinus" />
+    </RelativeLayout>
+</RelativeLayout>

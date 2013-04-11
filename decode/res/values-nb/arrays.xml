@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="settingsMenuItems">
+        <item>Adjust trackpad sensitivity</item>
+        <item>Kople til en Logitech-komponent</item>
+        <item>Logitech kundestøtte</item>
+        <item>Komponenter</item>
+    </string-array>
+    <string-array name="settingsMenuItemsKa1x">
+        <item>Adjust trackpad sensitivity</item>
+        <item>Edit activity buttons</item>
+        <item>Kople til en Logitech-komponent</item>
+        <item>Logitech kundestøtte</item>
+    </string-array>
+    <string-array name="settingsMenuItemsOlive">
+        <item>Komponenter</item>
+        <item>Synkroniser med My Harmony</item>
+        <item>Kople til en Logitech-komponent</item>
+        <item>Logitech kundestøtte</item>
+        <item>Aktivitet for favoritter</item>
+        <item>Automatisk lås</item>
+    </string-array>
+</resources>

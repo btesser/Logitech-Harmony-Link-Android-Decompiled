@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="20.0sp" android:textStyle="bold" android:gravity="center_vertical" android:background="@drawable/activity_titlebar_bg" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/addMoreTitle" />
+    <ScrollView android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <RelativeLayout android:id="@id/gtv_bookmarks" android:background="@drawable/addmorerow_background" android:layout_width="fill_parent" android:layout_height="60.0dip">
+                <TextView android:textColor="#ffffffff" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="6.0dip" android:text="@string/addMoreGtvBookmarks" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+                <TextView android:textColor="#ffffffff" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="7.0dip" android:text=">" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+                <View android:background="#ffffffff" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_alignParentBottom="true" />
+            </RelativeLayout>
+            <RelativeLayout android:id="@id/gtv_apps" android:background="@drawable/addmorerow_background" android:layout_width="fill_parent" android:layout_height="60.0dip">
+                <TextView android:textColor="#ffffffff" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="6.0dip" android:text="@string/addMoreGtvApps" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+                <TextView android:textColor="#ffffffff" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="7.0dip" android:text=">" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+                <View android:background="#ffffffff" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_alignParentBottom="true" />
+            </RelativeLayout>
+            <RelativeLayout android:id="@id/activities" android:background="@drawable/addmorerow_background" android:layout_width="fill_parent" android:layout_height="60.0dip">
+                <TextView android:textColor="#ffffffff" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="6.0dip" android:text="@string/globalActivities" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+                <TextView android:textColor="#ffffffff" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="7.0dip" android:text=">" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+                <View android:background="#ffffffff" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_alignParentBottom="true" />
+            </RelativeLayout>
+            <RelativeLayout android:id="@id/shorcuts" android:background="@drawable/addmorerow_background" android:layout_width="fill_parent" android:layout_height="60.0dip">
+                <TextView android:textColor="#ffffffff" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="6.0dip" android:text="@string/addMoreGtvShortcuts" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+                <TextView android:textColor="#ffffffff" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="7.0dip" android:text=">" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+            </RelativeLayout>
+            <TextView android:textColor="#ffffffff" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="6.0dip" android:layout_marginTop="40.0dip" android:text="@string/addMoreDefaultText" android:layout_weight="1.0" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

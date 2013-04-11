@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.logitech.harmonylink.view.widget.CustomTabView android:id="@id/DirectNav" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@*android:id/tabs" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageButton android:gravity="center" android:id="@id/NewDTab" android:background="@drawable/tab_grid" android:focusable="true" android:layout_width="160.0dip" android:layout_height="58.0dip" android:layout_alignParentLeft="true" />
+        <ImageButton android:gravity="right" android:id="@id/GestureTab" android:background="@drawable/tab_dpad" android:focusable="true" android:layout_width="160.0dip" android:layout_height="58.0dip" android:layout_toRightOf="@id/NewDTab" android:layout_alignParentRight="true" />
+    </RelativeLayout>
+    <ViewAnimator android:id="@*android:id/tabcontent" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_below="@*android:id/tabs">
+        <LinearLayout android:orientation="vertical" android:id="@id/CommandTab" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <com.logitech.harmonylink.view.widget.PagedHorizontalScrollView android:id="@id/WatchGTVCommandScrollView" android:focusable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="0.9">
+                <RelativeLayout android:id="@id/CommandTab2" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                    <RelativeLayout android:id="@id/FrameNumericButtons" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+                    <RelativeLayout android:id="@id/FrameUserButtons" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_toRightOf="@id/FrameNumericButtons" />
+                    <RelativeLayout android:gravity="center" android:id="@id/FrameVoiceSearch" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_toRightOf="@id/FrameUserButtons" />
+                </RelativeLayout>
+            </com.logitech.harmonylink.view.widget.PagedHorizontalScrollView>
+            <com.logitech.harmonylink.view.widget.PageIndicator android:gravity="center" android:orientation="horizontal" android:id="@id/PageIndicator" android:paddingBottom="7.0dip" android:layout_width="fill_parent" android:layout_height="19.0dip" android:layout_weight="0.1" android:layout_alignParentBottom="true" />
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:id="@id/GestureTab" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </ViewAnimator>
+</com.logitech.harmonylink.view.widget.CustomTabView>

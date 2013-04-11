@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="settingsMenuItems">
+        <item>Adjust trackpad sensitivity</item>
+        <item>Ïîäêëþ÷åíèå ê óñòðîéñòâó Logitech</item>
+        <item>Ñëóæáà òåõíè÷åñêîé ïîääåðæêè çàêàç÷èêîâ Logitech</item>
+        <item>Óñòðîéñòâà</item>
+    </string-array>
+    <string-array name="settingsMenuItemsKa1x">
+        <item>Adjust trackpad sensitivity</item>
+        <item>Edit activity buttons</item>
+        <item>Ïîäêëþ÷åíèå ê óñòðîéñòâó Logitech</item>
+        <item>Ñëóæáà òåõíè÷åñêîé ïîääåðæêè çàêàç÷èêîâ Logitech</item>
+    </string-array>
+    <string-array name="settingsMenuItemsOlive">
+        <item>Óñòðîéñòâà</item>
+        <item>Ñèíõðîíèçàöèÿ ñ My Harmony</item>
+        <item>Ïîäêëþ÷åíèå ê óñòðîéñòâó Logitech</item>
+        <item>Ñëóæáà òåõíè÷åñêîé ïîääåðæêè çàêàç÷èêîâ Logitech</item>
+        <item>Ïðîöåññ äëÿ «Èçáðàííîãî»</item>
+        <item>Автоматическая блокировка</item>
+    </string-array>
+</resources>

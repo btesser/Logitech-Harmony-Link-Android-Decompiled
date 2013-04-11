@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:minWidth="150.0dip" android:minHeight="100.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ProgressBar android:layout_gravity="center_horizontal" android:id="@id/syncProgress" android:layout_width="wrap_content" android:layout_height="wrap_content" android:indeterminate="true" android:indeterminateOnly="true" style="?android:attr/progressBarStyleLarge" />
+    <TextView android:layout_gravity="center_horizontal" android:id="@id/dwfwStatus" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0px" android:text="@string/syncDowmloadingFw" style="?android:attr/textAppearanceMedium" />
+    <ProgressBar android:id="@id/progress_horizontal" android:visibility="invisible" android:layout_width="200.0dip" android:layout_height="wrap_content" android:layout_marginTop="10.0px" android:progress="0" style="?android:attr/progressBarStyleHorizontal" />
+    <TextView android:gravity="center" android:id="@id/syncStatus" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0px" android:text="@string/checkSyncUpdate" style="?android:attr/textAppearanceLarge" />
+    <TextView android:layout_gravity="center_horizontal" android:id="@id/syncWifiLostMsg" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0px" android:layout_marginTop="30.0px" android:text="@string/syncwifiLostIgnoreMsg" style="?android:attr/textAppearanceMedium" />
+</LinearLayout>

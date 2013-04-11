@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/WatchGTVView" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ViewStub android:id="@id/FrameDirectNav" android:layout="@layout/watch_gtv_direct_nav_pad" android:inflatedId="@id/DirectNav" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/FrameModes" android:layout_width="fill_parent" android:layout_height="60.0dip" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/FrameKeyboard" android:background="@drawable/keyboard_bg_bar_small" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ToggleButton android:id="@id/escape" android:background="@drawable/esc_image_switch" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="3.0dip" android:layout_marginTop="6.0dip" android:layout_marginRight="2.0dip" android:checked="false" android:textOn="" android:textOff="" />
+        <ToggleButton android:id="@id/tab" android:background="@drawable/tab_image_switch" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="2.0dip" android:layout_marginTop="6.0dip" android:layout_marginRight="15.0dip" android:checked="false" android:textOn="" android:textOff="" />
+        <ToggleButton android:id="@id/alt" android:background="@drawable/alt_image_switch" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:layout_marginTop="6.0dip" android:layout_marginRight="2.0dip" android:checked="false" android:textOn="" android:textOff="" />
+        <ToggleButton android:id="@id/function" android:background="@drawable/fn_image_switch" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="2.0dip" android:layout_marginTop="6.0dip" android:layout_marginRight="2.0dip" android:checked="false" android:textOn="" android:textOff="" />
+        <ToggleButton android:id="@id/microphone" android:background="@drawable/microphone_image_switch" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="2.0dip" android:layout_marginTop="6.0dip" android:layout_marginRight="2.0dip" android:checked="false" android:textOn="" android:textOff="" />
+        <ToggleButton android:id="@id/search" android:background="@drawable/search_image_switch" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="2.0dip" android:layout_marginTop="6.0dip" android:layout_marginRight="3.0dip" android:checked="false" android:textOn="" android:textOff="" />
+    </LinearLayout>
+</LinearLayout>

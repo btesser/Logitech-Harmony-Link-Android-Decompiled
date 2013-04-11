@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.logitech.harmonylink.context.view.UserDefinedPageView android:id="@id/UserDefinedPageView" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_toRightOf="@id/FrameCustomButtons"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/res/com.logitech.harmonylink">
+    <com.logitech.harmonylink.view.widget.dragdrop.DragLayer android:id="@id/drag_layer" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.logitech.harmonylink.view.widget.dragdrop.CellLayout android:id="@id/UserDefinedPageCellLayout" android:longClickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" app:cellWidth="75.0dip" app:cellHeight="45.0dip" app:longAxisStartPadding="10.0dip" app:longAxisEndPadding="5.0dip" app:shortAxisStartPadding="10.0dip" app:shortAxisEndPadding="10.0dip" app:shortAxisCells="4" app:longAxisCells="4"
+          xmlns:android="http://schemas.android.com/apk/res/android" />
+        <com.logitech.harmonylink.view.widget.dragdrop.DeleteZone android:layout_gravity="center" android:id="@id/delete_zone" android:background="@drawable/delete_zone_selector" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="32.0dip" android:scaleType="center" android:drawableTop="@drawable/background_delete" android:layout_alignParentBottom="true" />
+    </com.logitech.harmonylink.view.widget.dragdrop.DragLayer>
+</com.logitech.harmonylink.context.view.UserDefinedPageView>

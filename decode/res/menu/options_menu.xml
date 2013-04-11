@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:id="@id/ConnectedGroup2_x" android:visible="false">
+        <item android:icon="@drawable/onetouch" android:id="@id/OneTouch" android:title="@string/globalOneTouch" />
+        <item android:icon="@drawable/icon_remote_control" android:id="@id/RemoteControl2_x" android:title="@string/globalControls" />
+        <item android:icon="@drawable/icon_settings" android:id="@id/Settings" android:title="@string/globalSettings" />
+    </group>
+    <group android:id="@id/ConnectedGroup1_x" android:visible="false">
+        <item android:icon="@drawable/icon_rcontrol" android:id="@id/RemoteControl1_x" android:title="@string/globalRControl" />
+        <item android:icon="@drawable/icon_settings" android:id="@id/Settings" android:title="@string/globalSettings" />
+    </group>
+    <group android:id="@id/InitialScreens" android:visible="false">
+        <item android:icon="@drawable/icon_settings" android:id="@id/Settings" android:title="@string/globalSettings" />
+    </group>
+</menu>

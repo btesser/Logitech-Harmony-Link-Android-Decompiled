@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/layout1" android:background="@drawable/title_bar_bg" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="20.0sp" android:id="@id/activitytext1" android:paddingTop="20.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/startHarmonyStarting" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" />
+    <TextView android:textSize="26.0sp" android:textStyle="bold" android:id="@id/activitytext" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/activitytext1" android:layout_centerHorizontal="true" />
+    <ImageView android:id="@id/contentbgicon" android:paddingBottom="144.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/activityburst" android:layout_centerInParent="true" />
+    <ImageView android:id="@id/contenticon" android:paddingTop="4.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/default_icon" android:layout_centerInParent="true" />
+    <ProgressBar android:id="@*android:attr/theme" android:paddingTop="40.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/contenticon" android:layout_centerHorizontal="true" style="?android:attr/progressBarStyle" />
+</RelativeLayout>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="settingsMenuItems">
+        <item>Adjust trackpad sensitivity</item>
+        <item>Po³¹cz z urz¹dzeniem Logitech</item>
+        <item>Obs³uga klienta firmy Logitech</item>
+        <item>Urz¹dzenia</item>
+    </string-array>
+    <string-array name="settingsMenuItemsKa1x">
+        <item>Adjust trackpad sensitivity</item>
+        <item>Edit activity buttons</item>
+        <item>Po³¹cz z urz¹dzeniem Logitech</item>
+        <item>Obs³uga klienta firmy Logitech</item>
+    </string-array>
+    <string-array name="settingsMenuItemsOlive">
+        <item>Urz¹dzenia</item>
+        <item>Synchronizuj z moim pilotem Harmony</item>
+        <item>Po³¹cz z urz¹dzeniem Logitech</item>
+        <item>Obs³uga klienta firmy Logitech</item>
+        <item>Dzia³anie dla ulubionych</item>
+        <item>Auto blokada</item>
+    </string-array>
+</resources>
